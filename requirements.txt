@@ -3,5 +3,6 @@ pandas
 numpy
 pymongo
 certifi
+mysql-connector-python
 
 -e .

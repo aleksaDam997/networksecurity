@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: Network-Security
+Version: 0.0.1
+Author: Aleksandar Damjanovic
+Author-email: aleksa.dam997@gmail.com
+Requires-Dist: python-dotenv
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pymongo
+Requires-Dist: certifi
+Requires-Dist: mysql-connector-python
+Requires-Dist: SQLAlchemy
+Requires-Dist: scikit-learn
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

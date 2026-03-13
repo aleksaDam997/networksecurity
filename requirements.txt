@@ -6,5 +6,7 @@ certifi
 mysql-connector-python
 SQLAlchemy
 scikit-learn
+dill
+pyyaml
 
 -e .

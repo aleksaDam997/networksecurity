@@ -1,0 +1,106 @@
+[2026-05-11 23:11:30,353 ] 161 numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+[2026-05-11 23:11:33,568 ] 16 root - INFO - Initiate data ingestion...
+[2026-05-11 23:11:33,568 ] 29 root - INFO - Exporting data from database
+[2026-05-11 23:11:34,436 ] 48 root - INFO - Exporting data into feature store
+[2026-05-11 23:11:34,489 ] 58 root - INFO - Splitting data into train and test sets
+[2026-05-11 23:11:34,547 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\11052026__231130\data_ingestion\ingested\train.csv and test set saved at Artifacts\11052026__231130\data_ingestion\ingested\test.csv
+[2026-05-11 23:11:34,548 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-05-11 23:11:34,564 ] 24 root - INFO - Initiate Data Validation...
+[2026-05-11 23:11:34,636 ] 31 root - INFO - Required number of columns: 31
+[2026-05-11 23:11:34,636 ] 32 root - INFO - Dataframe has columns: 31
+[2026-05-11 23:11:34,636 ] 31 root - INFO - Required number of columns: 31
+[2026-05-11 23:11:34,636 ] 32 root - INFO - Dataframe has columns: 31
+[2026-05-11 23:11:34,796 ] 27 root - INFO - Data Validation Completed!
+[2026-05-11 23:11:34,797 ] 29 root - INFO - Initiate Data Transformation...
+[2026-05-11 23:11:34,797 ] 44 root - INFO - Initiating data transformation...
+[2026-05-11 23:11:34,833 ] 51 root - INFO - Read train and test data completed
+[2026-05-11 23:16:37,116 ] 161 numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+[2026-05-11 23:16:38,643 ] 16 root - INFO - Initiate data ingestion...
+[2026-05-11 23:16:38,643 ] 29 root - INFO - Exporting data from database
+[2026-05-11 23:16:39,151 ] 48 root - INFO - Exporting data into feature store
+[2026-05-11 23:16:39,193 ] 58 root - INFO - Splitting data into train and test sets
+[2026-05-11 23:16:39,233 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\11052026__231637\data_ingestion\ingested\train.csv and test set saved at Artifacts\11052026__231637\data_ingestion\ingested\test.csv
+[2026-05-11 23:16:39,234 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-05-11 23:16:39,238 ] 24 root - INFO - Initiate Data Validation...
+[2026-05-11 23:16:39,341 ] 31 root - INFO - Required number of columns: 31
+[2026-05-11 23:16:39,341 ] 32 root - INFO - Dataframe has columns: 31
+[2026-05-11 23:16:39,341 ] 31 root - INFO - Required number of columns: 31
+[2026-05-11 23:16:39,341 ] 32 root - INFO - Dataframe has columns: 31
+[2026-05-11 23:16:39,442 ] 27 root - INFO - Data Validation Completed!
+[2026-05-11 23:16:39,442 ] 29 root - INFO - Initiate Data Transformation...
+[2026-05-11 23:16:39,442 ] 44 root - INFO - Initiating data transformation...
+[2026-05-11 23:16:39,471 ] 51 root - INFO - Read train and test data completed
+[2026-05-11 23:16:39,479 ] 31 root - INFO - Getting data transformer object...
+[2026-05-11 23:16:39,494 ] 34 root - INFO - Data Transformation Completed!
+[2026-05-11 23:16:39,495 ] 36 root - INFO - Model Trainer started...
+[2026-05-11 23:16:39,495 ] 22 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-05-11 23:16:39,495 ] 104 root - INFO - Loading transformed training dataset
+[2026-05-11 23:16:40,095 ] 98 root - INFO - Model Trainer Artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\11052026__231637\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(recall_score=0.9430444581028478, precision_score=0.9265297906602254, f1_score=0.9347141841811352), test_metric_artifact=ClassificationMetricArtifact(recall_score=0.9490595611285266, precision_score=0.9322555812163202, f1_score=0.9405825242718446))
+[2026-05-11 23:16:40,095 ] 41 root - INFO - Model Trainer Completed!
+[2026-05-11 23:16:45,977 ] 161 numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+[2026-05-11 23:16:47,504 ] 16 root - INFO - Initiate data ingestion...
+[2026-05-11 23:16:47,505 ] 29 root - INFO - Exporting data from database
+[2026-05-11 23:16:48,030 ] 48 root - INFO - Exporting data into feature store
+[2026-05-11 23:16:48,067 ] 58 root - INFO - Splitting data into train and test sets
+[2026-05-11 23:16:48,105 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\11052026__231646\data_ingestion\ingested\train.csv and test set saved at Artifacts\11052026__231646\data_ingestion\ingested\test.csv
+[2026-05-11 23:16:48,106 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-05-11 23:16:48,109 ] 24 root - INFO - Initiate Data Validation...
+[2026-05-11 23:16:48,229 ] 31 root - INFO - Required number of columns: 31
+[2026-05-11 23:16:48,230 ] 32 root - INFO - Dataframe has columns: 31
+[2026-05-11 23:16:48,230 ] 31 root - INFO - Required number of columns: 31
+[2026-05-11 23:16:48,230 ] 32 root - INFO - Dataframe has columns: 31
+[2026-05-11 23:16:48,335 ] 27 root - INFO - Data Validation Completed!
+[2026-05-11 23:16:48,335 ] 29 root - INFO - Initiate Data Transformation...
+[2026-05-11 23:16:48,335 ] 44 root - INFO - Initiating data transformation...
+[2026-05-11 23:16:48,359 ] 51 root - INFO - Read train and test data completed
+[2026-05-11 23:16:48,364 ] 31 root - INFO - Getting data transformer object...
+[2026-05-11 23:16:48,387 ] 34 root - INFO - Data Transformation Completed!
+[2026-05-11 23:16:48,387 ] 36 root - INFO - Model Trainer started...
+[2026-05-11 23:16:48,387 ] 22 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-05-11 23:16:48,387 ] 104 root - INFO - Loading transformed training dataset
+[2026-05-11 23:16:48,996 ] 98 root - INFO - Model Trainer Artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\11052026__231646\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(recall_score=0.9410798603982755, precision_score=0.9247528747226145, f1_score=0.9328449328449329), test_metric_artifact=ClassificationMetricArtifact(recall_score=0.9556765163297045, precision_score=0.9360243716679361, f1_score=0.9457483647556753))
+[2026-05-11 23:16:48,997 ] 41 root - INFO - Model Trainer Completed!
+[2026-05-11 23:20:14,937 ] 16 root - INFO - Initiate data ingestion...
+[2026-05-11 23:20:14,937 ] 29 root - INFO - Exporting data from database
+[2026-05-11 23:20:15,415 ] 48 root - INFO - Exporting data into feature store
+[2026-05-11 23:20:15,475 ] 58 root - INFO - Splitting data into train and test sets
+[2026-05-11 23:20:15,534 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\11052026__232004\data_ingestion\ingested\train.csv and test set saved at Artifacts\11052026__232004\data_ingestion\ingested\test.csv
+[2026-05-11 23:20:15,534 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-05-11 23:20:15,544 ] 24 root - INFO - Initiate Data Validation...
+[2026-05-11 23:20:15,639 ] 31 root - INFO - Required number of columns: 31
+[2026-05-11 23:20:15,640 ] 32 root - INFO - Dataframe has columns: 31
+[2026-05-11 23:20:15,640 ] 31 root - INFO - Required number of columns: 31
+[2026-05-11 23:20:15,640 ] 32 root - INFO - Dataframe has columns: 31
+[2026-05-11 23:20:15,786 ] 27 root - INFO - Data Validation Completed!
+[2026-05-11 23:20:15,786 ] 29 root - INFO - Initiate Data Transformation...
+[2026-05-11 23:20:15,786 ] 44 root - INFO - Initiating data transformation...
+[2026-05-11 23:20:15,809 ] 51 root - INFO - Read train and test data completed
+[2026-05-11 23:20:15,814 ] 31 root - INFO - Getting data transformer object...
+[2026-05-11 23:20:15,827 ] 34 root - INFO - Data Transformation Completed!
+[2026-05-11 23:20:15,827 ] 36 root - INFO - Model Trainer started...
+[2026-05-11 23:20:15,827 ] 22 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-05-11 23:20:15,827 ] 104 root - INFO - Loading transformed training dataset
+[2026-05-11 23:20:16,668 ] 98 root - INFO - Model Trainer Artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\11052026__232004\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(recall_score=0.946512100874517, precision_score=0.9276460035878015, f1_score=0.9369840950271794), test_metric_artifact=ClassificationMetricArtifact(recall_score=0.9532258064516129, precision_score=0.9241594996090696, f1_score=0.9384676458912267))
+[2026-05-11 23:20:16,668 ] 41 root - INFO - Model Trainer Completed!
+[2026-05-11 23:26:36,650 ] 16 root - INFO - Initiate data ingestion...
+[2026-05-11 23:26:36,651 ] 29 root - INFO - Exporting data from database
+[2026-05-11 23:26:36,922 ] 48 root - INFO - Exporting data into feature store
+[2026-05-11 23:26:36,963 ] 58 root - INFO - Splitting data into train and test sets
+[2026-05-11 23:26:37,007 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\11052026__232635\data_ingestion\ingested\train.csv and test set saved at Artifacts\11052026__232635\data_ingestion\ingested\test.csv
+[2026-05-11 23:26:37,007 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-05-11 23:26:37,012 ] 24 root - INFO - Initiate Data Validation...
+[2026-05-11 23:26:37,109 ] 31 root - INFO - Required number of columns: 31
+[2026-05-11 23:26:37,110 ] 32 root - INFO - Dataframe has columns: 31
+[2026-05-11 23:26:37,110 ] 31 root - INFO - Required number of columns: 31
+[2026-05-11 23:26:37,110 ] 32 root - INFO - Dataframe has columns: 31
+[2026-05-11 23:26:37,218 ] 27 root - INFO - Data Validation Completed!
+[2026-05-11 23:26:37,218 ] 29 root - INFO - Initiate Data Transformation...
+[2026-05-11 23:26:37,218 ] 44 root - INFO - Initiating data transformation...
+[2026-05-11 23:26:37,234 ] 51 root - INFO - Read train and test data completed
+[2026-05-11 23:26:37,236 ] 31 root - INFO - Getting data transformer object...
+[2026-05-11 23:26:37,257 ] 34 root - INFO - Data Transformation Completed!
+[2026-05-11 23:26:37,257 ] 36 root - INFO - Model Trainer started...
+[2026-05-11 23:26:37,257 ] 22 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-05-11 23:26:37,257 ] 104 root - INFO - Loading transformed training dataset
+[2026-05-11 23:26:37,845 ] 98 root - INFO - Model Trainer Artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\11052026__232635\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(recall_score=0.9471114727420668, precision_score=0.9276748356246264, f1_score=0.9372924006039255), test_metric_artifact=ClassificationMetricArtifact(recall_score=0.951651893634166, precision_score=0.9190661478599221, f1_score=0.9350752177355502))
+[2026-05-11 23:26:37,845 ] 41 root - INFO - Model Trainer Completed!

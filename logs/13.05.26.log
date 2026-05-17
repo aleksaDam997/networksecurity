@@ -1,0 +1,58 @@
+[2026-05-13 22:13:17,631 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+[2026-05-13 22:13:18,172 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+[2026-05-13 22:13:18,760 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-13 22:13:18,763 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-13 22:13:19,337 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-13 22:13:19,889 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-13 22:13:19,889 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-13 22:13:19,889 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-13 22:13:19,889 ] 16 root - INFO - Initiate data ingestion...
+[2026-05-13 22:13:19,889 ] 29 root - INFO - Exporting data from database
+[2026-05-13 22:13:20,608 ] 48 root - INFO - Exporting data into feature store
+[2026-05-13 22:13:20,649 ] 58 root - INFO - Splitting data into train and test sets
+[2026-05-13 22:13:20,691 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\13052026__221310\data_ingestion\ingested\train.csv and test set saved at Artifacts\13052026__221310\data_ingestion\ingested\test.csv
+[2026-05-13 22:13:20,693 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-05-13 22:13:20,705 ] 24 root - INFO - Initiate Data Validation...
+[2026-05-13 22:13:20,799 ] 31 root - INFO - Required number of columns: 31
+[2026-05-13 22:13:20,799 ] 32 root - INFO - Dataframe has columns: 31
+[2026-05-13 22:13:20,799 ] 31 root - INFO - Required number of columns: 31
+[2026-05-13 22:13:20,799 ] 32 root - INFO - Dataframe has columns: 31
+[2026-05-13 22:13:20,904 ] 27 root - INFO - Data Validation Completed!
+[2026-05-13 22:13:20,904 ] 29 root - INFO - Initiate Data Transformation...
+[2026-05-13 22:13:20,904 ] 44 root - INFO - Initiating data transformation...
+[2026-05-13 22:13:20,921 ] 51 root - INFO - Read train and test data completed
+[2026-05-13 22:13:20,927 ] 31 root - INFO - Getting data transformer object...
+[2026-05-13 22:13:20,937 ] 34 root - INFO - Data Transformation Completed!
+[2026-05-13 22:13:20,937 ] 36 root - INFO - Model Trainer started...
+[2026-05-13 22:13:20,937 ] 25 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-05-13 22:13:20,937 ] 122 root - INFO - Loading transformed training dataset
+[2026-05-13 22:23:06,763 ] 116 root - INFO - Model Trainer Artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\13052026__221310\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(recall_score=0.9943193345506188, precision_score=0.9891019172552977, f1_score=0.9917037636584379), test_metric_artifact=ClassificationMetricArtifact(recall_score=0.9788273615635179, precision_score=0.970137207425343, f1_score=0.9744629104175111))
+[2026-05-13 22:23:06,766 ] 41 root - INFO - Model Trainer Completed!
+[2026-05-13 22:48:56,109 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-13 22:48:56,117 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-13 22:48:56,701 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-13 22:48:57,245 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-13 22:48:57,248 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-13 22:48:57,249 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-13 22:48:57,249 ] 16 root - INFO - Initiate data ingestion...
+[2026-05-13 22:48:57,249 ] 29 root - INFO - Exporting data from database
+[2026-05-13 22:48:57,558 ] 48 root - INFO - Exporting data into feature store
+[2026-05-13 22:48:57,610 ] 58 root - INFO - Splitting data into train and test sets
+[2026-05-13 22:48:57,657 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\13052026__224853\data_ingestion\ingested\train.csv and test set saved at Artifacts\13052026__224853\data_ingestion\ingested\test.csv
+[2026-05-13 22:48:57,658 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-05-13 22:48:57,662 ] 24 root - INFO - Initiate Data Validation...
+[2026-05-13 22:48:57,754 ] 31 root - INFO - Required number of columns: 31
+[2026-05-13 22:48:57,754 ] 32 root - INFO - Dataframe has columns: 31
+[2026-05-13 22:48:57,754 ] 31 root - INFO - Required number of columns: 31
+[2026-05-13 22:48:57,754 ] 32 root - INFO - Dataframe has columns: 31
+[2026-05-13 22:48:57,872 ] 27 root - INFO - Data Validation Completed!
+[2026-05-13 22:48:57,872 ] 29 root - INFO - Initiate Data Transformation...
+[2026-05-13 22:48:57,872 ] 44 root - INFO - Initiating data transformation...
+[2026-05-13 22:48:57,891 ] 51 root - INFO - Read train and test data completed
+[2026-05-13 22:48:57,893 ] 31 root - INFO - Getting data transformer object...
+[2026-05-13 22:48:57,909 ] 34 root - INFO - Data Transformation Completed!
+[2026-05-13 22:48:57,909 ] 36 root - INFO - Model Trainer started...
+[2026-05-13 22:48:57,909 ] 25 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-05-13 22:48:57,909 ] 123 root - INFO - Loading transformed training dataset
+[2026-05-13 23:03:50,755 ] 117 root - INFO - Model Trainer Artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\13052026__224853\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(recall_score=0.9943193345506188, precision_score=0.9899010300949304, f1_score=0.9921052631578947), test_metric_artifact=ClassificationMetricArtifact(recall_score=0.9747557003257329, precision_score=0.9606741573033708, f1_score=0.967663702506063))
+[2026-05-13 23:03:50,758 ] 41 root - INFO - Model Trainer Completed!

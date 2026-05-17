@@ -87,6 +87,8 @@ class DataValidation:
 
             train_df.to_csv(self.data_validation_config.valid_train_file_path, index=False, header=True)
 
+            test_df.to_csv(self.data_validation_config.valid_test_file_path, index=False, header=True)
+
             data_validation_artifact = DataValidationArtifact(
                 validation_status=status,
                 valid_train_file_path=self.data_ingestion_artifact.train_file_path,

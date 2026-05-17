@@ -1,0 +1,93 @@
+Abnormal_URL:
+  drift_status: false
+  p_value: 0.9982529381226167
+DNSRecord:
+  drift_status: false
+  p_value: 0.9999999999965016
+Domain_registeration_length:
+  drift_status: false
+  p_value: 0.918796249345484
+Favicon:
+  drift_status: false
+  p_value: 0.12522576711888292
+Google_Index:
+  drift_status: false
+  p_value: 1.0
+HTTPS_token:
+  drift_status: false
+  p_value: 0.9999982228268777
+Iframe:
+  drift_status: false
+  p_value: 1.0
+Links_in_tags:
+  drift_status: false
+  p_value: 1.0
+Links_pointing_to_page:
+  drift_status: false
+  p_value: 0.7325666266216511
+Page_Rank:
+  drift_status: false
+  p_value: 0.5733052694150307
+Prefix_Suffix:
+  drift_status: false
+  p_value: 0.9763752606358573
+Redirect:
+  drift_status: false
+  p_value: 1.0
+Request_URL:
+  drift_status: false
+  p_value: 0.8685540728180071
+Result:
+  drift_status: false
+  p_value: 0.9999890535726116
+RightClick:
+  drift_status: false
+  p_value: 1.0
+SFH:
+  drift_status: false
+  p_value: 1.0
+SSLfinal_State:
+  drift_status: false
+  p_value: 0.7089345314550541
+Shortining_Service:
+  drift_status: false
+  p_value: 0.9999999999997877
+Statistical_report:
+  drift_status: false
+  p_value: 0.48909262763273814
+Submitting_to_email:
+  drift_status: false
+  p_value: 0.677053990189204
+URL_Length:
+  drift_status: false
+  p_value: 0.999999999999956
+URL_of_Anchor:
+  drift_status: false
+  p_value: 0.9659080032037665
+age_of_domain:
+  drift_status: true
+  p_value: 0.03017349020996007
+double_slash_redirecting:
+  drift_status: false
+  p_value: 0.9999999999997877
+having_At_Symbol:
+  drift_status: false
+  p_value: 1.0
+having_IP_Address:
+  drift_status: false
+  p_value: 1.0
+having_Sub_Domain:
+  drift_status: false
+  p_value: 0.9086653866244705
+on_mouseover:
+  drift_status: false
+  p_value: 0.9964705532516113
+popUpWidnow:
+  drift_status: false
+  p_value: 0.169756150039334
+port:
+  drift_status: false
+  p_value: 0.7786069254909116
+web_traffic:
+  drift_status: false
+  p_value: 0.9996208033369954

@@ -1,0 +1,228 @@
+[2026-05-17 00:03:28,720 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 00:03:28,749 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 00:03:29,396 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 00:03:29,973 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 00:03:29,978 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 00:03:29,979 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 00:04:27,565 ] 22 root - INFO - Starting data ingestion...
+[2026-05-17 00:04:27,565 ] 29 root - INFO - Exporting data from database
+[2026-05-17 00:04:28,321 ] 48 root - INFO - Exporting data into feature store
+[2026-05-17 00:04:28,443 ] 58 root - INFO - Splitting data into train and test sets
+[2026-05-17 00:04:28,573 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\17052026__000323\data_ingestion\ingested\train.csv and test set saved at Artifacts\17052026__000323\data_ingestion\ingested\test.csv
+[2026-05-17 00:04:28,575 ] 26 root - INFO - Data ingestion completed and artifact: DataIngestionArtifact(train_file_path='Artifacts\\17052026__000323\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\17052026__000323\\data_ingestion\\ingested\\test.csv')
+[2026-05-17 00:04:28,616 ] 35 root - INFO - Starting data validation...
+[2026-05-17 00:04:28,749 ] 31 root - INFO - Required number of columns: 31
+[2026-05-17 00:04:28,749 ] 32 root - INFO - Dataframe has columns: 31
+[2026-05-17 00:04:28,749 ] 31 root - INFO - Required number of columns: 31
+[2026-05-17 00:04:28,750 ] 32 root - INFO - Dataframe has columns: 31
+[2026-05-17 00:04:28,990 ] 45 root - INFO - Starting data transformation...
+[2026-05-17 00:04:28,990 ] 44 root - INFO - Initiating data transformation...
+[2026-05-17 00:04:29,008 ] 51 root - INFO - Read train and test data completed
+[2026-05-17 00:04:29,014 ] 31 root - INFO - Getting data transformer object...
+[2026-05-17 00:04:29,029 ] 25 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-05-17 00:04:29,029 ] 57 root - INFO - Starting model trainer...
+[2026-05-17 00:04:29,029 ] 123 root - INFO - Loading transformed training dataset
+[2026-05-17 00:20:32,566 ] 117 root - INFO - Model Trainer Artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\17052026__000323\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(recall_score=0.9941247974068071, precision_score=0.9881192106322997, f1_score=0.9911129064835387), test_metric_artifact=ClassificationMetricArtifact(recall_score=0.9787059787059788, precision_score=0.9731270358306189, f1_score=0.9759085340955492))
+[2026-05-17 01:17:17,497 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:17:17,504 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:17:18,062 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:17:18,595 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:17:18,596 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:17:18,597 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:17:18,864 ] 119 fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+[2026-05-17 01:18:07,080 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:18:07,090 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:18:07,669 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:18:08,218 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:18:08,219 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:18:08,219 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:21:51,006 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:21:51,016 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:21:51,760 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:21:52,311 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:21:52,315 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:21:52,315 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:23:09,852 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:23:09,864 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:23:10,451 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:23:11,011 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:23:11,014 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:23:11,014 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:23:53,279 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:23:53,285 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:23:53,875 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:23:54,440 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:23:54,441 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:23:54,442 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:24:47,768 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:24:47,774 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:24:48,388 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:24:48,919 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:24:48,921 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:24:48,921 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:24:54,127 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:24:54,134 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:24:54,734 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:24:55,275 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:24:55,280 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:24:55,281 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:24:59,595 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:24:59,611 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:25:00,219 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:25:00,779 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:25:00,791 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:25:00,793 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:25:46,925 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:25:46,939 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:25:47,593 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:25:48,152 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:25:48,155 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:25:48,156 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:27:50,373 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:27:50,379 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:27:50,961 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:27:51,498 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:27:51,501 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:27:51,502 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:29:50,909 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:29:50,916 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:29:51,655 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:29:52,289 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:29:52,295 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:29:52,298 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:30:33,651 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:30:33,652 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:30:34,317 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:30:34,912 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:30:34,912 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:30:34,923 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:31:17,044 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:31:17,058 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:31:17,683 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:31:18,011 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:31:18,018 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:31:18,018 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:31:43,196 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:31:43,211 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:31:43,801 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:31:44,363 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:31:44,366 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:31:44,368 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:33:18,041 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:33:18,044 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:33:18,775 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:33:19,354 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:33:19,358 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:33:19,360 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:33:33,118 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:33:33,129 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:33:33,804 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:33:34,424 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:33:34,426 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:33:34,428 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:34:52,656 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:34:52,675 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:34:53,318 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:34:53,906 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:34:53,908 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:34:53,909 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:36:58,066 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:36:58,074 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:36:58,672 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:36:59,209 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:36:59,212 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:36:59,214 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:37:07,346 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:37:07,364 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:37:07,764 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:37:08,327 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:37:08,330 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:37:08,331 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:40:12,732 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:40:12,737 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:40:13,377 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:40:13,933 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:40:13,936 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:40:13,937 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:40:19,021 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:40:19,034 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:40:19,602 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:40:20,170 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:40:20,172 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:40:20,173 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:41:19,539 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:41:19,553 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:41:20,194 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:41:20,721 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:41:20,721 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:41:20,721 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:42:10,705 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:42:10,705 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:42:11,295 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:42:11,838 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:42:11,840 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:42:11,840 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:42:34,300 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:42:34,313 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:42:34,672 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:42:35,027 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:42:35,029 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:42:35,030 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:42:53,232 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:42:53,239 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:42:53,875 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:42:54,408 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:42:54,409 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:42:54,410 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:44:29,042 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:44:29,049 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:44:29,639 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:44:29,985 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:44:29,985 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:44:29,985 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:46:53,341 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:46:53,346 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:46:53,947 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:46:54,487 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:46:54,490 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:46:54,490 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:47:14,531 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:47:14,536 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:47:15,138 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:47:15,673 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:47:15,675 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:47:15,676 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:47:29,860 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:47:29,866 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:47:30,220 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:47:30,553 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:47:30,553 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:47:30,554 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:47:36,892 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:47:36,904 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:47:37,492 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:47:37,839 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:47:37,843 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:47:37,843 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:49:47,291 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:49:47,303 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:49:47,907 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:49:48,490 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:49:48,493 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:49:48,495 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:54:21,514 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:54:21,525 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:54:22,111 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:54:22,641 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:54:22,643 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:54:22,644 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!
+[2026-05-17 01:55:14,561 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:55:14,576 ] 107 dagshub - INFO - Accessing as aleksaDam997
+[2026-05-17 01:55:15,190 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aleksaDam997/networksecurity "HTTP/1.1 200 OK"
+[2026-05-17 01:55:15,775 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-05-17 01:55:15,777 ] 107 dagshub - INFO - Initialized MLflow to track repo "aleksaDam997/networksecurity"
+[2026-05-17 01:55:15,778 ] 107 dagshub - INFO - Repository aleksaDam997/networksecurity initialized!

@@ -1,0 +1,222 @@
+[2026-03-22 18:03:56,064 ] 16 root - INFO - Initiate data ingestion...
+[2026-03-22 18:03:56,064 ] 29 root - INFO - Exporting data from database
+[2026-03-22 18:03:56,761 ] 48 root - INFO - Exporting data into feature store
+[2026-03-22 18:03:56,809 ] 58 root - INFO - Splitting data into train and test sets
+[2026-03-22 18:03:56,861 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\22032026__180346\data_ingestion\ingested\train.csv and test set saved at Artifacts\22032026__180346\data_ingestion\ingested\test.csv
+[2026-03-22 18:03:56,862 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-03-22 18:03:56,878 ] 24 root - INFO - Initiate Data Validation...
+[2026-03-22 18:03:56,954 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:03:56,954 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:03:56,954 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:03:56,954 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:03:57,099 ] 27 root - INFO - Data Validation Completed!
+[2026-03-22 18:03:57,099 ] 29 root - INFO - Initiate Data Transformation...
+[2026-03-22 18:03:57,100 ] 44 root - INFO - Initiating data transformation...
+[2026-03-22 18:03:57,126 ] 51 root - INFO - Read train and test data completed
+[2026-03-22 18:03:57,131 ] 31 root - INFO - Getting data transformer object...
+[2026-03-22 18:03:57,150 ] 34 root - INFO - Data Transformation Completed!
+[2026-03-22 18:03:57,150 ] 36 root - INFO - Model Trainer started...
+[2026-03-22 18:03:57,150 ] 22 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-22 18:03:57,150 ] 104 root - INFO - Loading transformed training dataset
+[2026-03-22 18:07:01,303 ] 16 root - INFO - Initiate data ingestion...
+[2026-03-22 18:07:01,303 ] 29 root - INFO - Exporting data from database
+[2026-03-22 18:07:01,588 ] 48 root - INFO - Exporting data into feature store
+[2026-03-22 18:07:01,634 ] 58 root - INFO - Splitting data into train and test sets
+[2026-03-22 18:07:01,683 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\22032026__180700\data_ingestion\ingested\train.csv and test set saved at Artifacts\22032026__180700\data_ingestion\ingested\test.csv
+[2026-03-22 18:07:01,684 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-03-22 18:07:01,690 ] 24 root - INFO - Initiate Data Validation...
+[2026-03-22 18:07:01,783 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:07:01,783 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:07:01,783 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:07:01,783 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:07:01,889 ] 27 root - INFO - Data Validation Completed!
+[2026-03-22 18:07:01,890 ] 29 root - INFO - Initiate Data Transformation...
+[2026-03-22 18:07:01,890 ] 44 root - INFO - Initiating data transformation...
+[2026-03-22 18:07:01,908 ] 51 root - INFO - Read train and test data completed
+[2026-03-22 18:07:01,913 ] 31 root - INFO - Getting data transformer object...
+[2026-03-22 18:07:01,929 ] 34 root - INFO - Data Transformation Completed!
+[2026-03-22 18:07:01,929 ] 36 root - INFO - Model Trainer started...
+[2026-03-22 18:07:01,929 ] 22 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-22 18:07:01,929 ] 104 root - INFO - Loading transformed training dataset
+[2026-03-22 18:09:30,453 ] 16 root - INFO - Initiate data ingestion...
+[2026-03-22 18:09:30,453 ] 29 root - INFO - Exporting data from database
+[2026-03-22 18:09:30,736 ] 48 root - INFO - Exporting data into feature store
+[2026-03-22 18:09:30,777 ] 58 root - INFO - Splitting data into train and test sets
+[2026-03-22 18:09:30,821 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\22032026__180929\data_ingestion\ingested\train.csv and test set saved at Artifacts\22032026__180929\data_ingestion\ingested\test.csv
+[2026-03-22 18:09:30,821 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-03-22 18:09:30,826 ] 24 root - INFO - Initiate Data Validation...
+[2026-03-22 18:09:30,955 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:09:30,955 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:09:30,955 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:09:30,955 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:09:31,045 ] 27 root - INFO - Data Validation Completed!
+[2026-03-22 18:09:31,045 ] 29 root - INFO - Initiate Data Transformation...
+[2026-03-22 18:09:31,045 ] 44 root - INFO - Initiating data transformation...
+[2026-03-22 18:09:31,059 ] 51 root - INFO - Read train and test data completed
+[2026-03-22 18:09:31,064 ] 31 root - INFO - Getting data transformer object...
+[2026-03-22 18:09:31,080 ] 34 root - INFO - Data Transformation Completed!
+[2026-03-22 18:09:31,080 ] 36 root - INFO - Model Trainer started...
+[2026-03-22 18:09:31,080 ] 22 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-22 18:09:31,080 ] 104 root - INFO - Loading transformed training dataset
+[2026-03-22 18:11:14,243 ] 16 root - INFO - Initiate data ingestion...
+[2026-03-22 18:11:14,243 ] 29 root - INFO - Exporting data from database
+[2026-03-22 18:11:14,560 ] 48 root - INFO - Exporting data into feature store
+[2026-03-22 18:11:14,598 ] 58 root - INFO - Splitting data into train and test sets
+[2026-03-22 18:11:14,630 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\22032026__181113\data_ingestion\ingested\train.csv and test set saved at Artifacts\22032026__181113\data_ingestion\ingested\test.csv
+[2026-03-22 18:11:14,630 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-03-22 18:11:14,648 ] 24 root - INFO - Initiate Data Validation...
+[2026-03-22 18:11:14,751 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:11:14,752 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:11:14,752 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:11:14,752 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:11:14,867 ] 27 root - INFO - Data Validation Completed!
+[2026-03-22 18:11:14,867 ] 29 root - INFO - Initiate Data Transformation...
+[2026-03-22 18:11:14,867 ] 44 root - INFO - Initiating data transformation...
+[2026-03-22 18:11:14,887 ] 51 root - INFO - Read train and test data completed
+[2026-03-22 18:11:14,889 ] 31 root - INFO - Getting data transformer object...
+[2026-03-22 18:11:14,910 ] 34 root - INFO - Data Transformation Completed!
+[2026-03-22 18:11:14,910 ] 36 root - INFO - Model Trainer started...
+[2026-03-22 18:11:14,910 ] 22 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-22 18:11:14,910 ] 104 root - INFO - Loading transformed training dataset
+[2026-03-22 18:11:47,632 ] 16 root - INFO - Initiate data ingestion...
+[2026-03-22 18:11:47,632 ] 29 root - INFO - Exporting data from database
+[2026-03-22 18:11:47,952 ] 48 root - INFO - Exporting data into feature store
+[2026-03-22 18:11:47,993 ] 58 root - INFO - Splitting data into train and test sets
+[2026-03-22 18:11:48,037 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\22032026__181146\data_ingestion\ingested\train.csv and test set saved at Artifacts\22032026__181146\data_ingestion\ingested\test.csv
+[2026-03-22 18:11:48,037 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-03-22 18:11:48,043 ] 24 root - INFO - Initiate Data Validation...
+[2026-03-22 18:11:48,149 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:11:48,149 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:11:48,149 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:11:48,149 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:11:48,246 ] 27 root - INFO - Data Validation Completed!
+[2026-03-22 18:11:48,246 ] 29 root - INFO - Initiate Data Transformation...
+[2026-03-22 18:11:48,246 ] 44 root - INFO - Initiating data transformation...
+[2026-03-22 18:11:48,262 ] 51 root - INFO - Read train and test data completed
+[2026-03-22 18:11:48,265 ] 31 root - INFO - Getting data transformer object...
+[2026-03-22 18:11:48,277 ] 34 root - INFO - Data Transformation Completed!
+[2026-03-22 18:11:48,277 ] 36 root - INFO - Model Trainer started...
+[2026-03-22 18:11:48,277 ] 22 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-22 18:11:48,277 ] 104 root - INFO - Loading transformed training dataset
+[2026-03-22 18:13:38,370 ] 16 root - INFO - Initiate data ingestion...
+[2026-03-22 18:13:38,370 ] 29 root - INFO - Exporting data from database
+[2026-03-22 18:13:38,636 ] 48 root - INFO - Exporting data into feature store
+[2026-03-22 18:13:38,673 ] 58 root - INFO - Splitting data into train and test sets
+[2026-03-22 18:13:38,704 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\22032026__181337\data_ingestion\ingested\train.csv and test set saved at Artifacts\22032026__181337\data_ingestion\ingested\test.csv
+[2026-03-22 18:13:38,704 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-03-22 18:13:38,723 ] 24 root - INFO - Initiate Data Validation...
+[2026-03-22 18:13:38,826 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:13:38,827 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:13:38,827 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:13:38,827 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:13:38,932 ] 27 root - INFO - Data Validation Completed!
+[2026-03-22 18:13:38,932 ] 29 root - INFO - Initiate Data Transformation...
+[2026-03-22 18:13:38,932 ] 44 root - INFO - Initiating data transformation...
+[2026-03-22 18:13:38,952 ] 51 root - INFO - Read train and test data completed
+[2026-03-22 18:13:38,953 ] 31 root - INFO - Getting data transformer object...
+[2026-03-22 18:13:38,974 ] 34 root - INFO - Data Transformation Completed!
+[2026-03-22 18:13:38,974 ] 36 root - INFO - Model Trainer started...
+[2026-03-22 18:13:38,974 ] 22 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-22 18:13:38,975 ] 104 root - INFO - Loading transformed training dataset
+[2026-03-22 18:15:36,251 ] 16 root - INFO - Initiate data ingestion...
+[2026-03-22 18:15:36,251 ] 29 root - INFO - Exporting data from database
+[2026-03-22 18:15:36,508 ] 48 root - INFO - Exporting data into feature store
+[2026-03-22 18:15:36,548 ] 58 root - INFO - Splitting data into train and test sets
+[2026-03-22 18:15:36,590 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\22032026__181535\data_ingestion\ingested\train.csv and test set saved at Artifacts\22032026__181535\data_ingestion\ingested\test.csv
+[2026-03-22 18:15:36,591 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-03-22 18:15:36,596 ] 24 root - INFO - Initiate Data Validation...
+[2026-03-22 18:15:36,701 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:15:36,701 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:15:36,701 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:15:36,701 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:15:36,796 ] 27 root - INFO - Data Validation Completed!
+[2026-03-22 18:15:36,796 ] 29 root - INFO - Initiate Data Transformation...
+[2026-03-22 18:15:36,796 ] 44 root - INFO - Initiating data transformation...
+[2026-03-22 18:15:36,820 ] 51 root - INFO - Read train and test data completed
+[2026-03-22 18:15:36,822 ] 31 root - INFO - Getting data transformer object...
+[2026-03-22 18:15:36,837 ] 34 root - INFO - Data Transformation Completed!
+[2026-03-22 18:15:36,837 ] 36 root - INFO - Model Trainer started...
+[2026-03-22 18:15:36,838 ] 22 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-22 18:15:36,838 ] 104 root - INFO - Loading transformed training dataset
+[2026-03-22 18:16:07,494 ] 16 root - INFO - Initiate data ingestion...
+[2026-03-22 18:16:07,494 ] 29 root - INFO - Exporting data from database
+[2026-03-22 18:16:07,759 ] 48 root - INFO - Exporting data into feature store
+[2026-03-22 18:16:07,795 ] 58 root - INFO - Splitting data into train and test sets
+[2026-03-22 18:16:07,842 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\22032026__181606\data_ingestion\ingested\train.csv and test set saved at Artifacts\22032026__181606\data_ingestion\ingested\test.csv
+[2026-03-22 18:16:07,842 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-03-22 18:16:07,847 ] 24 root - INFO - Initiate Data Validation...
+[2026-03-22 18:16:07,960 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:16:07,960 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:16:07,960 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:16:07,960 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:16:08,059 ] 27 root - INFO - Data Validation Completed!
+[2026-03-22 18:16:08,059 ] 29 root - INFO - Initiate Data Transformation...
+[2026-03-22 18:16:08,059 ] 44 root - INFO - Initiating data transformation...
+[2026-03-22 18:16:08,075 ] 51 root - INFO - Read train and test data completed
+[2026-03-22 18:16:08,077 ] 31 root - INFO - Getting data transformer object...
+[2026-03-22 18:16:08,092 ] 34 root - INFO - Data Transformation Completed!
+[2026-03-22 18:16:08,092 ] 36 root - INFO - Model Trainer started...
+[2026-03-22 18:16:08,092 ] 22 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-22 18:16:08,092 ] 104 root - INFO - Loading transformed training dataset
+[2026-03-22 18:19:18,483 ] 16 root - INFO - Initiate data ingestion...
+[2026-03-22 18:19:18,483 ] 29 root - INFO - Exporting data from database
+[2026-03-22 18:19:18,760 ] 48 root - INFO - Exporting data into feature store
+[2026-03-22 18:19:18,800 ] 58 root - INFO - Splitting data into train and test sets
+[2026-03-22 18:19:18,846 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\22032026__181917\data_ingestion\ingested\train.csv and test set saved at Artifacts\22032026__181917\data_ingestion\ingested\test.csv
+[2026-03-22 18:19:18,847 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-03-22 18:19:18,854 ] 24 root - INFO - Initiate Data Validation...
+[2026-03-22 18:19:18,957 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:19:18,957 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:19:18,957 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:19:18,957 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:19:19,057 ] 27 root - INFO - Data Validation Completed!
+[2026-03-22 18:19:19,057 ] 29 root - INFO - Initiate Data Transformation...
+[2026-03-22 18:19:19,057 ] 44 root - INFO - Initiating data transformation...
+[2026-03-22 18:19:19,076 ] 51 root - INFO - Read train and test data completed
+[2026-03-22 18:19:19,076 ] 31 root - INFO - Getting data transformer object...
+[2026-03-22 18:19:19,090 ] 34 root - INFO - Data Transformation Completed!
+[2026-03-22 18:19:19,090 ] 36 root - INFO - Model Trainer started...
+[2026-03-22 18:19:19,090 ] 22 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-22 18:19:19,090 ] 104 root - INFO - Loading transformed training dataset
+[2026-03-22 18:20:04,418 ] 16 root - INFO - Initiate data ingestion...
+[2026-03-22 18:20:04,418 ] 29 root - INFO - Exporting data from database
+[2026-03-22 18:20:04,681 ] 48 root - INFO - Exporting data into feature store
+[2026-03-22 18:20:04,724 ] 58 root - INFO - Splitting data into train and test sets
+[2026-03-22 18:20:04,762 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\22032026__182003\data_ingestion\ingested\train.csv and test set saved at Artifacts\22032026__182003\data_ingestion\ingested\test.csv
+[2026-03-22 18:20:04,762 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-03-22 18:20:04,772 ] 24 root - INFO - Initiate Data Validation...
+[2026-03-22 18:20:04,883 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:20:04,883 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:20:04,883 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:20:04,883 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:20:04,997 ] 27 root - INFO - Data Validation Completed!
+[2026-03-22 18:20:04,997 ] 29 root - INFO - Initiate Data Transformation...
+[2026-03-22 18:20:04,997 ] 44 root - INFO - Initiating data transformation...
+[2026-03-22 18:20:05,018 ] 51 root - INFO - Read train and test data completed
+[2026-03-22 18:20:05,018 ] 31 root - INFO - Getting data transformer object...
+[2026-03-22 18:20:05,031 ] 34 root - INFO - Data Transformation Completed!
+[2026-03-22 18:20:05,031 ] 36 root - INFO - Model Trainer started...
+[2026-03-22 18:20:05,031 ] 22 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-22 18:20:05,031 ] 104 root - INFO - Loading transformed training dataset
+[2026-03-22 18:24:14,732 ] 16 root - INFO - Initiate data ingestion...
+[2026-03-22 18:24:14,732 ] 29 root - INFO - Exporting data from database
+[2026-03-22 18:24:14,972 ] 48 root - INFO - Exporting data into feature store
+[2026-03-22 18:24:15,021 ] 58 root - INFO - Splitting data into train and test sets
+[2026-03-22 18:24:15,061 ] 66 root - INFO - Data split into train and test sets. Train set saved at Artifacts\22032026__182413\data_ingestion\ingested\train.csv and test set saved at Artifacts\22032026__182413\data_ingestion\ingested\test.csv
+[2026-03-22 18:24:15,061 ] 20 root - INFO - Data ingestion artifact Completed!
+[2026-03-22 18:24:15,069 ] 24 root - INFO - Initiate Data Validation...
+[2026-03-22 18:24:15,153 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:24:15,168 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:24:15,169 ] 31 root - INFO - Required number of columns: 31
+[2026-03-22 18:24:15,169 ] 32 root - INFO - Dataframe has columns: 31
+[2026-03-22 18:24:15,266 ] 27 root - INFO - Data Validation Completed!
+[2026-03-22 18:24:15,266 ] 29 root - INFO - Initiate Data Transformation...
+[2026-03-22 18:24:15,266 ] 44 root - INFO - Initiating data transformation...
+[2026-03-22 18:24:15,287 ] 51 root - INFO - Read train and test data completed
+[2026-03-22 18:24:15,287 ] 31 root - INFO - Getting data transformer object...
+[2026-03-22 18:24:15,309 ] 34 root - INFO - Data Transformation Completed!
+[2026-03-22 18:24:15,309 ] 36 root - INFO - Model Trainer started...
+[2026-03-22 18:24:15,309 ] 22 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Model Trainer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-22 18:24:15,309 ] 104 root - INFO - Loading transformed training dataset
+[2026-03-22 18:24:15,917 ] 98 root - INFO - Model Trainer Artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\22032026__182413\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(recall_score=0.9466584917228694, precision_score=0.9262147570485902, f1_score=0.9363250454821104), test_metric_artifact=ClassificationMetricArtifact(recall_score=0.9509493670886076, precision_score=0.9303405572755418, f1_score=0.9405320813771518))
+[2026-03-22 18:24:15,917 ] 41 root - INFO - Model Trainer Completed!

@@ -7,4 +7,6 @@ mysql-connector-python
 SQLAlchemy
 scikit-learn
 dill
+mlflow
 pyyaml
+dagshub
